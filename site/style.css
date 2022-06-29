@@ -1,0 +1,74 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Comfortaa:wght@500&family=Kalam&family=Titan+One&display=swap');
+
+:root {
+    --padrao: arial, helvetica, verdana, sans-serif;
+    --fonte01: 'Bitter', serif;
+    --fonte02: 'Comfortaa', cursive;
+    --fonte03: 'Titan One', cursive;
+    --fonte04: 'Kalam', cursive;
+}
+
+body {
+    background-image: linear-gradient(180deg, #A6E6F2, #00B4D8, #0059ac);
+
+}
+
+header {
+    background-color: #C6EFF7;
+    padding: 100px 30px 20px 30px;
+    text-align: center;
+    margin: -10px;
+    
+
+}
+
+main {
+    background-color: #0096C7;
+    margin: auto;
+    max-width: 800px;
+    min-width: 400px;
+    margin-top: 10px;
+    border-radius: 0px 0px 10px 10px;
+    border-style: groove 2px #03045E;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.308);
+}
+
+section {
+    padding: 10px;
+    margin: none;
+}
+
+h1 {
+    font-family: var(--fonte04);
+    font-size: 60px;
+
+}
+
+h2 {
+    font-family: var(--fonte02);
+    text-align: center;
+    padding: none;
+    margin: 0px;
+}
+
+h3, h4, p {
+
+    font-family: var(--fonte01);
+}
+
+
+section {
+    max-width: 800px;
+    min-width: 350px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    background-color: #02044d;
+    color: white;
+}
+footer>a{
+    color: white;
+}
