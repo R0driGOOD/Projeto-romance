@@ -9,8 +9,12 @@
     --fonte04: 'Kalam', cursive;
 }
 
+* {
+    color: #252A34;
+}
+
 body {
-    background-image: linear-gradient(180deg, #A6E6F2, #00B4D8, #0059ac);
+    background-image: linear-gradient(to bottom, #A6E6F2, #00B4D8, #0059ac);
 
 }
 
@@ -19,56 +23,96 @@ header {
     padding: 100px 30px 20px 30px;
     text-align: center;
     margin: -10px;
-    
+
 
 }
 
 main {
-    background-color: #0096C7;
-    margin: auto;
-    max-width: 800px;
-    min-width: 400px;
-    margin-top: 10px;
-    border-radius: 0px 0px 10px 10px;
-    border-style: groove 2px #03045E;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.308);
+    margin-top: 30px;
+
+
 }
 
-section {
+div {
+    max-width: 400px;
+    min-width: 300px;
+    max-height: 500px;
+    min-height: 200px margin-botton: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
     padding: 10px;
-    margin: none;
+    background-color: white;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+section#pessoa {
+    background-color: #2155CD;
+    padding: 10px;
+
+    margin: 10px -10%;
+}
+
+section#quimica {
+    background-color: #2155CD;
+    padding: 10px;
+
+    margin: 10px -10%;
+}
+div.kisame{
+    height: 300px;
+
+}
+div#q2{
+    background-image: url(imgzoada.jpg);
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    background-position: center-top;
+    background-position-x: -10vw ;
+}
+
+p {
+    font-family: var(--fonte01);
+    font-size: large;
+    text-align: justify;
+
 }
 
 h1 {
     font-family: var(--fonte04);
-    font-size: 60px;
+    font-size: 2.3em;
+}
 
+h2, h3, h4 {
+    font-family: var(--fonte02);
+    font-size: 1.4em;
 }
 
 h2 {
-    font-family: var(--fonte02);
-    text-align: center;
-    padding: none;
-    margin: 0px;
-}
-
-h3, h4, p {
-
-    font-family: var(--fonte01);
-}
-
-
-section {
-    max-width: 800px;
-    min-width: 350px;
     margin: auto;
+    text-align: center;
+    margin: 20px 0px
+}
+
+h3 {
+
+    padding: 30px;
+    text-align: center;
+
 }
 
 footer {
-    text-align: center;
-    background-color: #02044d;
-    color: white;
+    background-color: #033f64;
+    color: black;
+    margin: 10px -20px -20px -20px;
+
 }
-footer>a{
-    color: white;
+
+footer>p {
+    text-align: center;
+    padding: 10px 0px;
+    font-family: var(--fonte04);
+
 }
