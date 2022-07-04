@@ -15,9 +15,12 @@
 
 body {
     background-image: linear-gradient(to bottom, #A6E6F2, #00B4D8, #0059ac);
+    width: 100vw;
 
 }
-
+section{
+    padding-right: -10px;
+}
 header {
     background-color: #C6EFF7;
     padding: 100px 30px 20px 30px;
@@ -28,16 +31,16 @@ header {
 }
 
 main {
-    margin-top: 30px;
+    margin:0px 0px 0px -10px;
 
 
 }
 
 div {
-    max-width: 400px;
+    width: 400px;
     min-width: 300px;
     max-height: 500px;
-    min-height: 200px margin-botton: 20px;
+    min-height: 200px margin-botton: 30px;
     margin-top: 10px;
     border-radius: 10px;
     padding: 10px;
@@ -51,26 +54,56 @@ div {
 section#pessoa {
     background-color: #2155CD;
     padding: 10px;
-
-    margin: 10px -10%;
+    padding: 0px;
+    margin: 10px -20PX;
+    padding-bottom: 10px;
+    padding-right: none;
+    margin-bottom: 0px; 
 }
 
 section#quimica {
     background-color: #2155CD;
     padding: 10px;
 
-    margin: 10px -10%;
-}
-div.kisame{
-    height: 300px;
+    margin: 0px -18PX;
+    margin-bottom: 0px;
 
 }
+
+
 div#q2{
     background-image: url(imgzoada.jpg);
-    background-attachment: fixed ;
+    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: center-top;
-    background-position-x: -10vw ;
+    background-position: 50% -10%;
+    height: 300px;
+    width: 100vw;
+    border-radius: 0px; 
+    margin: 0px;
+   
+   
+}
+div#q1{
+    border-radius: 50%;
+    background-image: url(imgbonita1.png);
+    height: 380px;
+    width: 380px;
+    background-position: 50% 40%;
+    
+}
+div#q3{
+    width: 100vw;
+    height: 400px;
+    background-image: url(imgbonitaPi.jpg);
+    background-position: 40%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0px;
+    border-radius: 0px;
+
+}
+div>h4{
+    text-align: center;
 }
 
 p {
@@ -106,7 +139,7 @@ h3 {
 footer {
     background-color: #033f64;
     color: black;
-    margin: 10px -20px -20px -20px;
+    margin: 0px -20px -20px -20px;
 
 }
 
@@ -114,5 +147,6 @@ footer>p {
     text-align: center;
     padding: 10px 0px;
     font-family: var(--fonte04);
+    margin-top: 0px;
 
 }
