@@ -8,145 +8,88 @@
     --fonte03: 'Titan One', cursive;
     --fonte04: 'Kalam', cursive;
 }
+header{
+    background-color: #C6EFF7;
+    margin: -10px;
+}
+h1{
+    margin:0px;
+    text-align: center;
+    font-family: var(--fonte04);
+    padding:100px 10px;
+}
+h2{
+    font-family: var(--fonte01);
+    text-align: center;
+}
+h3{
+    font-family: var(--fonte02);
+}
 
-* {
-    color: #252A34;
+div {
+    background-color: white;
+    font-family: var(--fonte02);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 20px 0px;
+    text-align: justify;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.479);
+    max-width: 400px;
+}
+
+div#q1 {
+    border-radius: 50%;
+    background-image: url(imgbonita1.png);
+    height: 290px;
+    width: 290px;
+    background-position: 50% 40%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    border: solid 1px black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+
+}
+
+div#q2 {
+    background-image: url(imgbonitaPi.png);
+    height: 500px;
+    background-position: 50% 100%;
+    margin: auto -10px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+div#q3 {
+    height: 200px;
+    background-image: url(imgzoada.jpg);
+    background-position: 60% 30%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    margin: auto -10px;
+    
+
+}
+section#pessoa{
+    background-color: #137f85 ;
+    padding: 10px;
+    margin: auto -10px;
 }
 
 body {
     background-image: linear-gradient(to bottom, #A6E6F2, #00B4D8, #0059ac);
-    width: 100vw;
+}
+#fim{
+    color: #C6EFF7;
+}
+#fim2{
+    color: #C6EFF7;
+    margin-top: 418px;
 
 }
-section{
-    padding-right: -10px;
-}
-header {
-    background-color: #C6EFF7;
-    padding: 100px 30px 20px 30px;
+div#q3>p{
     text-align: center;
-    margin: -10px;
-
-
-}
-
-main {
-    margin:0px 0px 0px -10px;
-
-
-}
-
-div {
-    width: 400px;
-    min-width: 300px;
-    max-height: 500px;
-    min-height: 200px margin-botton: 30px;
-    margin-top: 10px;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: white;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-section#pessoa {
-    background-color: #2155CD;
-    padding: 10px;
-    padding: 0px;
-    margin: 10px -20PX;
-    padding-bottom: 10px;
-    padding-right: none;
-    margin-bottom: 0px; 
-}
-
-section#quimica {
-    background-color: #2155CD;
-    padding: 10px;
-
-    margin: 0px -18PX;
-    margin-bottom: 0px;
-
-}
-
-
-div#q2{
-    background-image: url(imgzoada.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: 50% -10%;
-    height: 300px;
-    width: 100vw;
-    border-radius: 0px; 
-    margin: 0px;
-   
-   
-}
-div#q1{
-    border-radius: 50%;
-    background-image: url(imgbonita1.png);
-    height: 380px;
-    width: 380px;
-    background-position: 50% 40%;
-    
-}
-div#q3{
-    width: 100vw;
-    height: 400px;
-    background-image: url(imgbonitaPi.jpg);
-    background-position: 40%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin: 0px;
-    border-radius: 0px;
-
-}
-div>h4{
-    text-align: center;
-}
-
-p {
-    font-family: var(--fonte01);
-    font-size: large;
-    text-align: justify;
-
-}
-
-h1 {
-    font-family: var(--fonte04);
-    font-size: 2.3em;
-}
-
-h2, h3, h4 {
-    font-family: var(--fonte02);
-    font-size: 1.4em;
-}
-
-h2 {
-    margin: auto;
-    text-align: center;
-    margin: 20px 0px
-}
-
-h3 {
-
-    padding: 30px;
-    text-align: center;
-
-}
-
-footer {
-    background-color: #033f64;
-    color: black;
-    margin: 0px -20px -20px -20px;
-
-}
-
-footer>p {
-    text-align: center;
-    padding: 10px 0px;
-    font-family: var(--fonte04);
-    margin-top: 0px;
-
+    margin-left: 5px;
 }
