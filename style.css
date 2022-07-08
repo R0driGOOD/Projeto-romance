@@ -8,27 +8,33 @@
     --fonte03: 'Titan One', cursive;
     --fonte04: 'Kalam', cursive;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     background-color: #C6EFF7;
-    padding:100px 10px;
-   
+    padding: 100px 10px;
+
+
 }
-h1{
-    margin:0px;
+
+h1 {
+    margin: 0px;
     text-align: center;
     font-family: var(--fonte04);
-    
+
 }
-h2{
+
+h2 {
     font-family: var(--fonte01);
     text-align: center;
     margin: calc(5vh + 10px);
 }
-h3{
+
+h3 {
     margin-left: 3vw;
     font-family: var(--fonte02);
 }
@@ -45,7 +51,7 @@ div {
     position: relative;
     box-sizing: border-box;
     padding: 8px;
-    
+
 }
 
 div#q1 {
@@ -88,41 +94,53 @@ div#q3 {
     background-size: cover;
     max-width: 10000px;
 
-    
+
 
 }
-section#pessoa{
-    background-color: #137f85 ;
+
+section#pessoa {
+    background-color: #137f85;
     margin: auto;
+
+
 }
+
 
 body {
     background-image: linear-gradient(to bottom, #A6E6F2, #00B4D8, #0059ac);
+
 }
-#fim{
+
+#fim {
     color: #C6EFF7;
     margin: 0;
 }
-#fim2{
+
+#fim2 {
     color: #C6EFF7;
     margin: 418px 0 0;
 
 }
-div#q3>p{
+
+div#q3>p {
     text-align: center;
     margin-left: 5px;
 }
-footer{
+
+footer {
+
     background-color: #137f85;
     box-sizing: content-box;
     padding: 10px;
 }
-footer>p{
+
+footer>p {
     margin: 0px;
     font-family: var(--fonte04);
     text-align: center;
     font-size: 1.2em;
 }
+
 .heart {
     margin: 50px;
     background-color: red;
