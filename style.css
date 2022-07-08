@@ -14,14 +14,14 @@
 }
 header{
     background-color: #C6EFF7;
-    margin: -10px;
+    padding:100px 10px;
    
 }
 h1{
     margin:0px;
     text-align: center;
     font-family: var(--fonte04);
-    padding:100px 10px;
+    
 }
 h2{
     font-family: var(--fonte01);
@@ -29,6 +29,7 @@ h2{
     margin: calc(5vh + 10px);
 }
 h3{
+    margin-left: 3vw;
     font-family: var(--fonte02);
 }
 
@@ -50,15 +51,15 @@ div {
 div#q1 {
     border-radius: 50%;
     background-image: url(imgbonita1.png);
+    background-size: cover;
+    background-position: 50% 40%;
     height: 290px;
     width: 290px;
-    background-position: 50% 40%;
-    background-size: cover;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     object-fit: contain;
-    border: solid 1px black;
+    border: solid 1px rgba(0, 0, 0, 0.26);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
 
 }
@@ -71,8 +72,8 @@ div#q2 {
     background-attachment: fixed;
     background-repeat: no-repeat;
     max-width: 10000px;
-    width: 100vw;
-    background-size: cover;
+    width: 100%;
+    background-color: #0059ac;
 }
 
 div#q3 {
@@ -83,7 +84,7 @@ div#q3 {
     background-repeat: no-repeat;
     border-radius: 0px;
     margin: auto auto;
-    width: 100vw;
+    width: 100%;
     background-size: cover;
     max-width: 10000px;
 
@@ -92,8 +93,7 @@ div#q3 {
 }
 section#pessoa{
     background-color: #137f85 ;
-    padding: 10px;
-    margin: auto -10px;
+    margin: auto;
 }
 
 body {
@@ -114,14 +114,41 @@ div#q3>p{
 }
 footer{
     background-color: #137f85;
-    margin: 0px -10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-bottom:-10px;
+    box-sizing: content-box;
+    padding: 10px;
 }
 footer>p{
     margin: 0px;
     font-family: var(--fonte04);
     text-align: center;
     font-size: 1.2em;
+}
+.heart {
+    margin: 50px;
+    background-color: red;
+    height: 50px;
+    transform: rotate(-45deg);
+    width: 50px;
+    position: absolute;
+    padding: 0%;
+    top: 285%;
+    left: -20px;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 50px;
+    position: absolute;
+    width: 50px;
+}
+
+.heart:before {
+    top: -25px;
+}
+
+.heart:after {
+    left: 25px;
 }
