@@ -20,7 +20,40 @@ header {
 
 
 }
-menu{display: flex ;}
+
+menu {
+    display: flex;
+}
+
+ul {
+    margin: 12px 0 0 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    display: inline;
+}
+
+li a {
+    padding: 5px 8px;
+    margin: 0;
+    border: 0px solid rgb(0, 0, 0);
+    background: rgb(50, 184, 224);
+    text-decoration: none;
+    color: #FFF;
+    /* cantos arredondados */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+li a:hover {
+    background: rgb(32, 139, 238);
+    color: #000;
+    border-color: #000;
+}
 
 h1 {
     margin: 0px;
@@ -40,6 +73,26 @@ h3 {
     font-family: var(--fonte02);
 }
 
+div.log {
+    margin: 0 auto 0 auto;
+    border-radius: 0%;
+
+
+}
+
+div.pi {
+    color: aliceblue;
+    width: 100%;
+    max-height: 600px;
+    min-height: 300px;
+    height: 60%;
+    background-size: cover;
+    max-width: 100000000px;
+    border-radius: 0;
+    margin: 0%;
+    background-position: 50%;
+}
+
 div {
     background-color: white;
     font-family: var(--fonte02);
@@ -48,7 +101,7 @@ div {
     margin: 20px auto;
     text-align: justify;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.479);
-    max-width: 400px;
+    max-width: 600px;
     position: relative;
     box-sizing: border-box;
     padding: 8px;
@@ -87,7 +140,7 @@ div#q3 {
     height: 300px;
     background-image: url(fotos/jennifertudo2.png);
     background-position: 60% 30%;
-    background-attachment: fixed;
+    background-attachment: local;
     background-repeat: no-repeat;
     border-radius: 0px;
     margin: auto auto;
@@ -95,12 +148,17 @@ div#q3 {
     background-size: cover;
     max-width: 10000px;
     background-color: #00B4D8;
-    color: white;
+    color: #00B4D8;
 
 
 
 }
-div#q4{
+
+div#q3>h2 {
+    margin: 0%;
+}
+
+div#q4 {
     background-image: url(fotos/jennifervitamina.png);
     height: 300px;
     width: 100%;
@@ -110,7 +168,8 @@ div#q4{
     background-position: 50% 50%;
     background-attachment: fixed;
 }
-div#q5{
+
+div#q5 {
     background-image: url(fotos/dedo1.png);
     width: 100%;
     max-width: 100000px;
@@ -118,17 +177,43 @@ div#q5{
     margin-top: 0;
     margin-bottom: 0;
     height: 300px;
+    background-position: 50% 40%;
 }
-div#div1{
+
+div#q6 {
+    background-image: url(fotos/dedo2.png);
+}
+
+div#q7 {
+    background-image: url(fotos/bjo.png);
+    background-position: 70%;
+}
+
+div#q8 {
+    background-image: url(fotos/dedo3.png);
+}
+
+div#q9 {
+    height: 400px;
+    background: fixed no-repeat url(fotos/Obrigado.png) 40% 120%;
+
+}
+
+div#div1 {
     margin-bottom: 0%;
     border-radius: 10px 10px 0px 0px;
 }
+
+div#div2 {
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 20px;
+}
+
 section#pessoa {
     background-color: #137f85;
     margin: auto;
-
-
 }
+
 
 
 body {
@@ -136,15 +221,20 @@ body {
 
 }
 
-#fim {
+.fim {
     color: #C6EFF7;
     margin: 0;
 }
 
-#fim2 {
+.fim2 {
     color: #C6EFF7;
     margin: 418px 0 0;
 
+}
+
+#fim2 {
+    margin-top: 333px;
+    color: #C6EFF7;
 }
 
 div#q3>p {
