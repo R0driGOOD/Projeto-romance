@@ -159,7 +159,7 @@ div#q3>h2 {
 }
 
 div#q4 {
-    background-image: url(/fotos/jennifervitamina.png);
+    background-image: url(fotos/jennifervitamina.png);
     height: 300px;
     width: 100%;
     max-width: 1000000px;
@@ -170,7 +170,7 @@ div#q4 {
 }
 
 div#q5 {
-    background-image: url(/fotos/dedo1.png);
+    background-image: url(fotos/dedo1.png);
     width: 100%;
     max-width: 100000px;
     background-size: cover;
@@ -181,21 +181,21 @@ div#q5 {
 }
 
 div#q6 {
-    background-image: url(/fotos/dedo2.png);
+    background-image: url(fotos/dedo2.png);
 }
 
 div#q7 {
-    background-image: url(/fotos/bjo.png);
+    background-image: url(fotos/bjo.png);
     background-position: 70%;
 }
 
 div#q8 {
-    background-image: url(/fotos/dedo3.png);
+    background-image: url(fotos/dedo3.png);
 }
 
 div#q9 {
     height: 400px;
-    background: fixed no-repeat url(/fotos/Obrigado.png) 40% 120%;
+    background: fixed no-repeat url(fotos/Obrigado.png) 40% 120%;
 
 }
 
